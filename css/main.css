@@ -10,6 +10,12 @@ body {
     margin-right: 1em;
     margin-bottom: 1em;
     border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.gallery img:hover {
+    transform: scale(1.2, 1.2);
+    box-shadow: 10px 10px 5px #888888;
 }
 
 nav {
@@ -28,6 +34,7 @@ header a:visited {
     padding-right: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    transition: all 1s;
 }
 
 header a:hover,
